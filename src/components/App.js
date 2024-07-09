@@ -27,7 +27,7 @@ function App() {
       {loading ? (
         <p>Loading...</p>
       ) : users.length === 0 ? (
-        <p>No users found.</p>
+        <p>No data found</p>
       ) : (
         <table>
           <thead>
